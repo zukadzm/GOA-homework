@@ -1,2 +1,2 @@
 shopping_list =["ვაშლი , ბანანი , ფორთოხალი , ანანასი , წყალი , ფანტა , კოკაკოლა."]
-shopping_list["1"]
+shopping_list[1]
