@@ -1,1 +1,0 @@
-name = int(input("Write here whatever you want: "))
