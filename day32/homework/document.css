@@ -1,0 +1,19 @@
+.info{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+.first{
+    color: rgb(255, 0, 0)
+}
+
+.second{
+    color: rgb(0, 255, 0);
+}
+
+.third{
+    color: rgb(0, 0, 255);
+}
+body{
+    background-color: rgb(43, 35, 35);
+}
