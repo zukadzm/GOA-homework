@@ -1,0 +1,9 @@
+.hw{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 310px 550px 310px 550px;
+    height: 30px;
+    width: 300px;
+    background-color: black;
+    color: blue;
+}
