@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: blue;
+}
+
+.back{
+    margin-left: 600px;
+    margin-top: 200px;
+
+   background-color: gray;
+   background-position: center;
+
+   width: 450px;
+   height: 400px;
+
+   border-radius: 20px;
+
+   box-shadow: -5px 5px 5px 5px black;
+
+}
+
+.img{
+    background-image: url(image\ copy\ 3.png);
+    background-size: cover;
+
+    margin-left: 50px;
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.hh1{
+    margin-top: 75px;
+}
+
