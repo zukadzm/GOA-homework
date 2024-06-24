@@ -1,0 +1,50 @@
+.sin{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sing{
+    text-align: center;
+    border-radius: 20px;
+}
+
+.pass{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.namee{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+
+.forg{
+    margin-left: 850px;
+    color: blue;
+}
+
+.sin3{
+    text-align: center;
+    margin-bottom: 3500px;
+}
+
+
+.sin2{
+    text-align: center;
+    margin: 50px 30px 50px 30px;
+    background-color: blue;
+
+    width: 450px;
+    height: 45px;
+
+    border-radius: 15px;
+
+    margin-left: 525px;
+    margin-bottom: 700px;
+
+    padding-top: 1px;
+    color: white;
+}
