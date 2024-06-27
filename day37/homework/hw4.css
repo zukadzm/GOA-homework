@@ -1,0 +1,20 @@
+.parent{
+    width: 1200px;
+    height: 1200px;
+    border: 5px solid red;
+
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;
+}
+
+.child{
+    color: rgb(51, 0, 255);
+
+    width: 200px;
+    height: 200px;
+
+    background-color: black;
+    border: 3px rgb(0, 0, 0);
+}
