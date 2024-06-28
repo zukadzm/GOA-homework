@@ -1,0 +1,21 @@
+.cl{
+    width: 300px;
+    height: 260px;
+    border: 2px solid rgb(98, 13, 13);
+    margin: 30px 500px 450px 650px;
+
+    padding: 20px 10px 20px 10px;
+    margin-left: 550px;
+    margin-bottom: 300px;
+
+    height: 45vh;
+    width: 40%;
+    background: linear-gradient(45deg,#d2001a,#7462ff);
+    border-radius: 10%;
+}
+
+#reg{
+    width: 320;
+    text-align: center;
+    background-color: black;
+}
