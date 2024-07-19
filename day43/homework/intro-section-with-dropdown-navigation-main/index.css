@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textparent{
+    margin-top: 100px;
+    margin-left: 120px;
+
+    font-size: 55px;
+}
+
+.main1{
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.parent{
+    display: flex;
+    gap: 35px;
+   
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.parentlr{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+
+    margin-right: 20px;
+    margin-bottom: 200px;
+
+}
+
+.child1{
+    font-size: small;
+
+    margin-top: 10px;
+}
+
+.parentpht{
+    background-image: url(images/image-hero-desktop.png);
+    background-size: cover;
+
+    width: 700px;
+    height: 685px;
+    
+    float: right;
+
+    margin-right: 45px;
+}
+
+.btn{
+    margin-left: 100px;
+    margin-top: 90px;
+
+}

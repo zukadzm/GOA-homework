@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.first{
+    width: 425px;
+    height: 290px;
+    background-color: purple;
+
+    margin-left: 90px;
+    margin-top: 300px;
+    border-radius: 15px;
+}
+
+
+.pht{
+    background-image: url(images/image-colton.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+
+    margin-left: 35px;
+
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.txt1{
+   width: 450px;
+   margin-left: 77px;
+   padding-top: 6px;
+
+   color: white;
+
+   margin-right: 100px;
+}
+
+
+.txt2{
+   color: rgb(241, 71, 241); 
+   margin-bottom: 20px;
+}
+
+.txt32{
+    margin-right: 210px;
+    color: white;
+
+    margin-top: 35px;
+}
+
+.second{
+    width: 425px;
+    height: 290px;
+    background-color: purple;
+ 
+    margin-left: 350px;
+    border-radius: 15px;  
+}
+
+.pht2{
+    background-image: url(images/image-irene.jpg);
+
+    background-repeat: repeat-x;
+    background-size: cover;
+
+    margin-left: 35px;
+
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.txt3{
+    width: 450px;
+    margin-left: 75px;
+    padding-top: 6px;
+    color: white;
+}
+
+.txt4{
+  color: rgb(241, 71, 241); 
+  width: 450px;
+
+  margin-left: 75px;
+}
+
+.txt5{
+    color: white;
+    width: 450px;
+    margin-right: 190px;
+    margin-top: 65px;
+}
+
+.third{
+    width: 425px;
+    height: 290px;
+    background-color: purple;
+
+    margin-left: 400px;
+    border-radius: 15px;  
+}
+
+
+.pht3{
+    background-image: url(images/image-anne.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+
+    margin-left: 35px;
+
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.txt6{
+    color: white;
+    width: 350px;
+
+    margin-left: 75px;
+    padding-top: 10px;
+}
+
+.txt7{
+    color: rgb(241, 71, 241); 
+    width: 450px;
+
+    margin-left: 75px;
+}
+
+.txt8{
+    color: white;
+    width: 450px;
+    margin-right: 190px;
+    margin-top: 65px;
+}
+
+.mainn{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+.main2{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.main3{
+    margin-left: 800px;
+}
+
+.main4{
+    margin-left: 800px;
+}
+
+.main5{
+    margin-left: 800px;
+}

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../python course/day43/classwork"
+		},
+		{
+			"path": "../design"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "images",
+		"liveServer.settings.port": 5501
+	}
+}
