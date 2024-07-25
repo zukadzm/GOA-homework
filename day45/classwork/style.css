@@ -1,0 +1,73 @@
+/* button:hover{
+    transform: rotate(45deg) skew(50deg) scale(1.5) translate(100px , 50px);
+}
+
+div{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    transform: rotate(65deg) scale(1.4) translate(110px, 90px) skew(30deg);
+} */
+
+/* button:hover{
+    width: 500px;
+    height: 90px;
+    background-color: black;
+    transition: ease-in 3s;
+} */
+
+
+
+
+/* transform: rotate(10deg); - ათი გრადუსით ამოტრიალდება. შემიძლია გადავცე დადებითი და უარყოფითი, მარტო გრადიუს. */
+/* skew() - ფუნქცია დახრა, ჩვენ შეგვიძლია დავხაროთ კონკრეტული ელემენტი რამდენი გრადუსითაც გვინდა. */
+/* scale() - თითქოს ელემენტს შევუცვალეთ ზომა. შეგვიძლია გადავცეთ ორი მნიშვნელობა უარყოფითი რიცხვი არ შეიძლება */
+/* ranslate() - ფუნქცია გვაძლევს იმის შასუალებას რომ გადავაადგილოთ ელემენტი x,y მიმართულებით. */
+
+
+/* trsform - გვაძლევს ამ ეფექტების საშუალებას. */
+
+
+
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+
+    animation-name: firstanimation;
+
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes firstanimation {
+    0%{
+        background-color: black;
+    }
+
+    20%{
+        background-color: cyan;
+    }
+
+    40%{
+        background-color: red;
+    }
+
+    60%{
+        background-color: brown;
+    }
+
+    80%{
+        background-color: chartreuse;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
+
+
+
+
+
