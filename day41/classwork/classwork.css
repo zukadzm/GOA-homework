@@ -1,66 +1,54 @@
-header{
-    position: fixed;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   
-    width: 100%;
-    height: 90px;
+body{
+    background-color: brown;
+}
 
-    background-color: rgb(34, 28, 28);
+.image-bac{
+    background-image: url(image.png);
+    margin-left: 600px;
+    margin-top: 230px;
+    margin-right: 40px;
+
+    height: 300px;
+    width: 500px;
+
+    background-position: center;
+    background-size: cover;
+    
+    overflow: hidden;
+
+    box-shadow: -5px 5px 5px red;
+
+    border-radius: 35px;
+
+
+}
+
+.text{
+    text-align: center;
+
+    padding-top: 105px;
+
+    font-size: xx-large;
+
     color: white;
+   background-color: rgba(0, 0, 230, 0.4);
 
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 0 300px;      
 }
 
-ol{
-    display: flex;
-    gap: 30px;
-}
+.text2{
+    background-color: rgba(0, 0, 230, 0.4);
 
-.child{
-    width: 416px;
-    height: 416px;
-
-    border-radius: 10px;
-    background-color: rgba(217, 255, 0, 0.7);
-}
-
-.child1{
-    width: 416px;
-    height: 416px;
-
-    border-radius: 10px;
-    background-color: rgba(217, 255, 0, 0.7);
-}
-
-.child2{
-    width: 416px;
-    height: 416px;
-
-    border-radius: 10px;
-    background-color: rgba(217, 255, 0, 0.7);
-
-    border: 5px solid red;
-}
-
-.child3{
-    width: 416px;
-    height: 416px;
-
-    border-radius: 10px;
-    background-color: rgba(217, 255, 0, 0.7);
-
-    border: 5px solid red;
-}
+    padding-bottom: 10000000000px;
 
 
-.child4{
-    width: 416px;
-    height: 416px;
+    font-size: 1px;
 
-    border-radius: 10px;
-    background-color: rgba(217, 255, 0, 0.7);
 
-    border: 5px solid red;
+background-position: center;
 }

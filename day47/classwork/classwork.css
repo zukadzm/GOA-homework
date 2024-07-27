@@ -1,0 +1,66 @@
+header{
+    position: fixed;
+  
+    width: 100%;
+    height: 90px;
+
+    background-color: rgb(34, 28, 28);
+    color: white;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 300px;      
+}
+
+ol{
+    display: flex;
+    gap: 30px;
+}
+
+.child{
+    width: 416px;
+    height: 416px;
+
+    border-radius: 10px;
+    background-color: rgba(217, 255, 0, 0.7);
+}
+
+.child1{
+    width: 416px;
+    height: 416px;
+
+    border-radius: 10px;
+    background-color: rgba(217, 255, 0, 0.7);
+}
+
+.child2{
+    width: 416px;
+    height: 416px;
+
+    border-radius: 10px;
+    background-color: rgba(217, 255, 0, 0.7);
+
+    border: 5px solid red;
+}
+
+.child3{
+    width: 416px;
+    height: 416px;
+
+    border-radius: 10px;
+    background-color: rgba(217, 255, 0, 0.7);
+
+    border: 5px solid red;
+}
+
+
+.child4{
+    width: 416px;
+    height: 416px;
+
+    border-radius: 10px;
+    background-color: rgba(217, 255, 0, 0.7);
+
+    border: 5px solid red;
+}
