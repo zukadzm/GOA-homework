@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: darkred;
+}
+
+div:hover {
+    transform: rotate(25deg) ,scale(1.5), skew(20deg);
+    transition: transform 0.25s, ease-out , 2s;
+    background-color: blue;
+}
+
+/* ease - იწყება ნელა შემდეგ სწრაფი და ბოლოს ნელი , slow,fast,slow
+linar - ანიმაციის სიჩქარე არ იცბლება ერთი და იგივე სიჩქარით მიჰყვება
+ease-in - იწყება ნელა და ბოლოს მრთავდება სწრაფად slow,fast,slow 
+ease-out - დაიწყებს სწრაფად და გაჩერდება ნელა , fast,fast,slow
+ease-in-out - ნელა დაიწყება ასწრაფდება და გაჩერდება ნელა  */
+
+/* ჯერ გამოვიყენეთ transition-proeperty,შემდეგ გამოვიყენე tranmition-duration ანუ რამდენ წამში,წუთში მოხდეს, შემდეგ გამოვიყენე transition-timing-function - ანუ  მაგალითადნ ease-in იქნება ჯერ ნელი შემდეგ სწრაფი და ბოლოს ნელი, და ბოლო transmition-delay რომელიც შეაფერხებს მაგალითად თუ გავუწერ 1 წამს ის დაიწყება 1 წამში */
+
+
+/* transition - მაგალითად მე როდესაც შევეხები ყუთს ან ღილაკს მე შემიძლია ის გავხადო ესე რომ ვთქვათ smooth რბილი და რბილად შეეცვალოს ფერი hover - ის გამოყენებით */
+
+
+/* tranfsorm - აძლევს ეფექტს ჩვენს საიტს უფრო კარგს და ეფექტურს ხდის */
+/* rotate(10deg) - 10 გრადუსით ამობრუნდება ყუთი საათის მიმართულებით */
+/* scale - იგივე zoom out, zoom in, როდესაც უარყოფითს გავუწერთ მაშინ მოხდება დაპატარავება , და როდესად დადებითს გავუწერთ მაშინ მოხდება ყუთის გადიდება */
+/* skew - არის rotate მსგავსი ატრიალებს ყუთს მაგალითან skew(35deg) გრადუსით */

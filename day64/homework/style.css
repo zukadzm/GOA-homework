@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Parent {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 250px;
+}
+
+.child-1 {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+.child-1:hover {
+    transform: rotate(90deg);
+
+    transition: transform, 2s , ease-in , 1s;
+    border-radius: 30px;
+}
