@@ -1,0 +1,48 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-1 {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+
+    animation: first 3s ease-out infinite reverse;
+}
+
+.box-2 {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+
+    animation: second 3s ease-in infinite reverse;
+}
+
+@keyframes first{
+    0%{
+        background-color: black;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: brown;
+    }
+}
+
+@keyframes second{
+    0%{
+        background-color: black;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: brown;
+    }
+}
