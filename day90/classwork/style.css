@@ -1,0 +1,72 @@
+/* 1 */
+/* button {
+    margin-top: 10px;
+}
+
+button:hover {
+    color: red;
+    margin-top: -10px;
+    transition: 2s;
+} */
+
+
+/* 2 */
+/* body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+
+.cube {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveAround 8s linear infinite;
+}
+
+
+@keyframes moveAround {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: calc(100% - 50px); }
+    50% { top: calc(100% - 50px); left: calc(100% - 50px); }
+    75% { top: calc(100% - 50px); left: 0; }
+    100% { top: 0; left: 0; }
+}  */
+
+/* 3 */
+
+
+.dv1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    opacity: 0;
+}
+
+.dv2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    opacity: 0;
+}
+
+.dv1:hover {
+    opacity: 100;
+    transition: 2s;
+}
+
+.dv2:hover {
+    opacity: 100;
+    transition: 2s;
+} 
