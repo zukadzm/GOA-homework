@@ -1,0 +1,79 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(108, 108, 108);
+}
+
+.text0 {
+    font-size: 35px;
+    margin-left: 900px;
+    margin-top: 65px;
+    font-weight: bolder;
+}
+
+
+.underline-text0 {
+    height: 3px;
+    width: 90px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-top: -30px;
+}
+
+.underline-text0-text-year {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.firsttext {
+    margin-top: 85px;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.underline-firsttext {
+    height: 3px;
+    width: 295px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+.finaltextlater {
+    width: 430px;
+    height: 205px;
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 15px;
+    margin-top: 40px;
+}
+
+.photo {
+    background-image: url(zukas.png);
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    background-size: cover;
+
+    margin-left: 1050px;
+    margin-top: -400px;
+}
+
+
+.mysecondphoto {
+    position: absolute;
+    background-image: url(zukas2.png);
+
+    width: 175px;
+    height: 175px;
+    background-size: cover;
+    border-radius: 50%;
+    left: 90px;
+    top: 10px;
+}
+
