@@ -77,3 +77,18 @@ body {
     top: 10px;
 }
 
+
+.butn {
+    width: 75px;
+    height: 25px;
+    background-color: orangered;
+}
+
+.butn:hover {
+    text-shadow: -5px 5px 5px orangered;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
