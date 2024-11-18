@@ -1,0 +1,99 @@
+.firstline {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    width: 320px;
+    height: 375px;
+    background-color: darkblue;
+
+    text-align: center;
+    border-radius: 10px;
+}
+.first-p {
+    font-size: 21px;
+    color: white;
+}
+
+.first .photo {
+    background-image: url(firstImg/mike.png);
+    background-size: cover;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+
+.first .about {
+    height: 255px;
+    width: 320px;
+    background-color: orange;
+    color: white;
+}
+
+.second {
+    width: 320px;
+    height: 375px;
+    background-color: darkred;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.second-p {
+    font-size: 21px;
+    color: white;
+}
+
+.second .photo2 {
+    background-image: url(secondImg/jake.png);
+    background-size: cover;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+
+.second .about2 {
+    height: 255px;
+    width: 320px;
+    background-color: orange;
+    color: white;
+}
+
+.third {
+    width: 320px;
+    height: 375px;
+    background-color: darkred;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+.third .third-p {
+    font-size: 21px;
+    color: white;
+}
+
+.third .photo3 {
+    background-image: url(thirdImg/mikle.png);
+    background-size: cover;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+
+.third .about3 {
+    height: 255px;
+    width: 320px;
+    background-color: orange;
+    color: white;
+}
+
+.container-buttons {
+    border-radius: 5px;
+    margin-top: 50px;
+}
