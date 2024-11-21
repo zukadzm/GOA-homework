@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    width: 350px;
+    height: 400px;
+    background-color: black;
+}
+
+.img1 {
+    background-image: url(first.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65px;
+    margin-top: 55px;
+}
+
+.btn1 {
+    margin-left: 135px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: black;
+}
+
+.second {
+    width: 350px;
+    height: 400px;
+    background-color: black;
+}
+
+.third {
+    width: 350px;
+    height: 400px;
+    background-color: black;
+}
+
+.img2 {
+    background-image: url(second.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65px;
+    margin-top: 55px;
+}
+
+.btn2 {
+    margin-left: 135px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: black;
+}
+
+.btn3 {
+    margin-left: 135px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: black;
+}
+
+.img3 {
+    background-image: url(thirds.png);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65px;
+    margin-top: 55px;
+}

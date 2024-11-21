@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    font-family: cursive;
+}
+
+.container-navbar {
+    width: 100%;
+    height: 95px;
+    background-color: blue;
+}
+
+.frm {
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+body {
+    animation-name: backroundanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backroundanimation{
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: yellowgreen;
+    }
+    20% {
+        background-color: orangered;
+    }
+    30% {
+        background-color: orange;
+    }
+    40% {
+        background-color: aliceblue;
+    }
+    50% {
+        background-color: greenyellow;
+    }
+    60% {
+        background-color: green;
+    }
+    70% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: aqua;
+    }
+    90% {
+        background-color: royalblue;
+    }
+    100% {
+        background-color: darkblue;
+    }
+}
+
+.input1 {
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+
+.input2 {
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+
+button {
+    width: 45px;
+    height: 20px;
+    background-color: gray;
+    color: white;
+}
+
+.container-navbar p {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    color: white;
+}
