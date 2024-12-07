@@ -1,29 +1,17 @@
-const box1 = document.getElementById("box1");
-const box2 = document.getElementById("box2");
-const box3 = document.getElementById("box3");
-const button1 = document.getElementById("btn1");
-const button2 = document.getElementById("btn2");
-const button3 = document.getElementById("btn3");
+//  შექმენით მანუალური სორტის ფუნქცია
+// const number = [12,2,45,1,0]
+// console.log(sort(number))
 
 
-function sort(){
-    box1.style.opacity = 0.3;
-    box3.style.opacity = 0.3;
+//  შექმენით მანუალური ფილტრის ფუნქცია ( ფუნქცია რომელსაც გადაეცდემა ორი არგუმენტი, მასივი და ინტეჯერი რომლის ქვემოთ მყოფი რიცხვებიც უნდა ამოიღოს მასივიდან )
 
+// function remove(a){
+//     a = remove()
+//     const num = [1,2,3,4,5,6]
 
-    button1.addEventListener("click",function(){
-        box1.style.marginLeft = "510px";
-        box2.style.marginRight = "999px"
-        box2.style.position = "absolute"
-        box1.style.opacity = 1;
-        box2.style.opacity = 0.3;
-        box1.style.transition = "2s"
-        box2.style.transition = "2s"
-        button2.addEventListener("click",function(){
-            box1.style.marginRight = "510px";
-            
-        })
-    })
-
-}
-sort()
+//     for(let i = 0; i > num.length; i++) {
+//         num == a
+//         return num = a
+//     }
+// }
+// remove(num)
