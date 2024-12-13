@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    font-family: cursive;
+}
+
+body {
+    animation-name: backroundanimation;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+
+@keyframes backroundanimation{
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: blue;
+    }
+    20% {
+        background-color: purple;
+    }
+    30% {
+        background-color: cyan;
+    }
+    40% {
+        background-color: orange;
+    }
+    50% {
+        background-color: orangered;
+    }
+    60% {
+        background-color: yellow;
+    }
+    70% {
+        background-color: fuchsia;
+    }
+    80% {
+        background-color: rosybrown;
+    }
+    90% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: violet;
+    }
+
+}
+
+button {
+    width: 155px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 60px;
+}
+
+.resClick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
