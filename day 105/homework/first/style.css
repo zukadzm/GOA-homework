@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstline {
+    width: 700px;
+    height: 210px;
+    background-color: pink;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.child1 {
+    width: 120px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+.container-flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.child2 {
+    width: 328px;
+    height: 200px;
+    background-color: lightsalmon;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child3 {
+    width: 700px;
+    height: 210px;
+    background-color: pink;
+    margin-top: 20px;
+}
+
+
+

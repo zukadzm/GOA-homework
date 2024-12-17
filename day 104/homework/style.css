@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 body {
@@ -47,7 +47,7 @@ body {
 }
 
 button {
-    width: 155px;
+    width: 165px;
     height: 35px;
     border-radius: 6px;
     background-color: black;
@@ -73,3 +73,36 @@ button:hover {
     border: 2px solid white;
 }
 
+.secondContainer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.res {
+    width: 110px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 344px) {
+    button {
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-buttons {
+        flex-direction: column;
+    }
+    button {
+        height: 135px;
+    }
+    .secondContainer-buttons {
+        flex-direction: column;
+    }
+}

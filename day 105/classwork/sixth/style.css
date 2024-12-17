@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+@media (max-width: 220px) {
+    .container {
+        flex-direction: column;
+    }
+}

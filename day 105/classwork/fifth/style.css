@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.child1 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.child2 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+
+.child3 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+
+.child4 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+
+.child5 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+
+.child6 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+
+.child7 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+}

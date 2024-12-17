@@ -1,0 +1,26 @@
+body {
+    animation-name: backroundanimation;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@keyframes backroundanimation{
+    0% {
+        background-color: yellow;
+    }
+    10% {
+        background-color: yellowgreen;
+    }
+    30% {
+        background-color: orange;
+    }
+    50% {
+        background-color: red;
+    }
+    80% {
+        background-color: darkblue;
+    }
+    100% {
+        background-color: cyan;
+    }
+}
