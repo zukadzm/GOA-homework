@@ -1,0 +1,71 @@
+/* <div class="container">
+  <div class="first"></div>
+  <div class="second"></div>
+  <div class="third"></div>
+</div>
+
+<div class="container-balls">
+  <div class="firstBall"></div>
+  <div class="secondBall"></div>
+  <div class="thirdBall"></div>
+</div>
+<style>
+  body {
+    background: #4A9A86
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 115px
+  }
+  .first {
+    width: 75px;
+    height: 75px;
+    background-color: #4C4C6B
+  }
+  .second {
+   width: 75px;
+    height: 75px;
+    background-color: #FAE29E
+  }
+  .third {
+   width: 75px;
+    height: 75px;
+    background-color: #4C4C6B
+  }
+  .container-balls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: -60px
+  }
+  .firstBall {
+    width: 40px;
+    height: 40px;
+    background: #FAE29E; 
+    border-radius: 50%;
+  }
+  .secondBall {
+    width: 40px;
+    height: 40px;
+    background: #4C4C6B; 
+    border-radius: 50%;
+  }
+  .thirdBall {
+    width: 40px;
+    height: 40px;
+    background: #FAE29E; 
+    border-radius: 50%;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting --> */
