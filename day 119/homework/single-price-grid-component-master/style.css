@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+.child0 {
+    width: 600px;
+    height: 290px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-left: 655px;
+    margin-top: -570px;
+    border-radius: 10px;
+}
+
+.child1 {
+    width: 300px;
+    height: 290px;
+    background-color: #2bb3b1;
+    border-radius: 10px;
+}
+
+.child2 {
+    width: 300px;
+    height: 290px;
+    background-color: #4abebd;
+    border-radius: 10px;
+}
+
+.community {
+    padding-left: 35px;
+    color: #409fa2;
+    padding-top: 40px;
+}
+
+.secondText {
+    padding-left: 35px;
+    color: #b8da0c;
+    padding-top: 40px;
+}
+
+.thidText {
+    padding-left: 35px;
+    color: gray;
+    padding-top: 40px;
+}
+
+.c1f1 {
+    color: whitesmoke;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.c1f2 {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.c1f3 {
+    color: white;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.c1b1 {
+    width: 225px;
+    height: 55px;
+    background-color: #bfdf32;
+    border: none;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.c2f1 {
+    padding-left: 50px;
+    padding-top: 40px;
+    color: white;
+}
+
+.c2f2 {
+    padding-left: 50px;
+    color: #88dadd;
+    font-size: 18px;
+    padding-top: 10px;
+}
