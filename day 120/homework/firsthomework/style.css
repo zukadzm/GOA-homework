@@ -1,0 +1,49 @@
+* {
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.redBox {
+    width: 350px;
+    height: 350px;
+    background-color: darkred;
+    position: absolute;
+}
+
+
+.greenBox {
+    width: 350px;
+    height: 350px;
+    background-color: darkgreen;
+    position: absolute;
+    margin-left: 1550px;
+}
+
+
+.footer {
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 650px;
+}
+
+.purple {
+    width: 350px;
+    height: 350px;
+    background-color: purple;
+    position: absolute;
+    margin-left: 1550px;
+    margin-top: 1300px;
+}
+
+.blue {
+    width: 350px;
+    height: 350px;
+    background-color: darkblue;
+    position: absolute;
+    margin-top: 1300px;
+}
