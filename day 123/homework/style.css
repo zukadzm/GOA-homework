@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    animation-name: backaniation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backaniation{
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: black;
+    }
+    70% {
+        background-color: green;
+    }
+    100% {
+        background-color: darkblue;
+    }
+}
