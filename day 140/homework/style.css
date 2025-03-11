@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.child1 {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    border: 4px solid blueviolet;
+}
+
+
+.child2 {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 10px;
+    border: 4px solid blueviolet;
+}
+
+.child3 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 10px;
+    border: 4px solid blueviolet;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    background-image: url(box1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.img2 {
+    background-image: url(box2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.img3 {
+    background-image: url(box3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+body {
+    animation-name: animation;
+    animation-timing-function: ease;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    0% {
+        background-color: darkred;
+    }
+    10% {
+        background-color: darkblue;
+    }
+    50% {
+        background-color: darkcyan;
+    }
+    100% {
+        background-color: darkgrey;
+    }
+}
